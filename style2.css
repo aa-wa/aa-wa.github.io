@@ -48,7 +48,7 @@
 }
 
 .head1{
-	font-size: clamp(20px,3vw,40px);
+	font-size: clamp(20px,3vw,40px);/*determining the maximum and minimum sizes of the responsive text*/
 	font-weight: bolder;
 	color: rgb(100,255,100);
 	position: relative;
@@ -79,7 +79,7 @@
 
 .l1{
 	color: rgb(80,30,70);
-	text-decoration: none;
+	text-decoration: none;/*getting rid of the persistent underline in links*/
 	padding: 10px;
 }
 
@@ -250,6 +250,8 @@
 	width: 50vw;
 
 }
+
+/*giving the page a different layout once the screen width is less than or equal to 999px*/
 @media screen and (max-width: 999px){
 
 	.Project1{
