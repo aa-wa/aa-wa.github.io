@@ -26,7 +26,7 @@
 
 }
 
-.content{
+.tree-choice{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -36,6 +36,7 @@
 }
 
 .choice{
+
 	width: 100%;
 	font-family: sans-serif;
 	font-weight: bold;
