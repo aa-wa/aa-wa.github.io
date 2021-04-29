@@ -1,0 +1,95 @@
+
+.elements{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.title{
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 60px ;
+	color: rgb(100,255,100);
+}
+
+.intro{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+	color: rgb(100,255,100);
+
+}
+
+.content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.choice{
+	width: 100%;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+	color: rgb(100,255,100);
+
+}
+
+.trees{
+	display: flex;
+
+}
+
+.tree1{
+	display: flex;
+	justify-content: center;
+	width: 60vw;
+	transition: 0.5s ease;
+	position: relative;
+}
+
+
+.text2{
+	position: absolute;
+	top:20%;
+	right: 45%;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2vw;
+	color: rgb(200,255,50);;
+}
+
+
+
+.tree1:hover{
+	transform: scale(1.5); 
+}
+
+.tree2{
+	display: flex;
+	justify-content: center;
+	width: 60vw;
+	transition: 0.5s ease;
+	position: relative;
+}
+
+.tree2:hover{
+	transform: scale(1.5); 
+}
+
+
+
+
+
+
