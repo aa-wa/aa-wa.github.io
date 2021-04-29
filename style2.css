@@ -200,6 +200,56 @@
 	text-decoration: none;
 	padding: 10px;
 }
+
+.Project4{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.text4{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(100,255,100);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.head4{
+	font-size: clamp(20px,3vw,40px);
+	color: rgb(100,255,100);
+	font-weight: bolder;
+	position: relative;
+	top: 30%;
+	transition: 1s ease;
+	text-decoration: none;
+}
+
+.head4:hover{
+	color: rgb(80,30,70);
+	transform: scale(1.2);
+}
+
+.para4{
+	padding: 10px;
+	font-size: clamp(15px,2vw,30px);
+	font-weight: bold;
+	position: relative;
+	top: 30%;
+}
+
+.pic4{
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+
+}
 @media screen and (max-width: 999px){
 
 	.Project1{
@@ -234,6 +284,18 @@
 		width: 100vw;
 	}
 	.pic3{
+		width: 100vw;
+	}
+
+	.Project4{
+		flex-direction: column-reverse;
+	}
+
+	.text4{
+		width: 100vw;
+	}
+
+	.pic4{
 		width: 100vw;
 	}
 }
