@@ -46,7 +46,7 @@
 	justify-content: center;
 	color: rgb(100,255,100);
 	font-family: sans-serif;
-	text-align: center;
+	
 	}
 
 .head1{
@@ -56,12 +56,14 @@
 	position: relative;
 	text-decoration: none;
 	transition: 1s ease;
+	text-align: center;
 }
 
 .para1{
 	padding: 10px;
 	font-weight: bold;
 	font-size: clamp(15px,2vw,30px);
+	text-align: center;
 }
 
 
@@ -110,7 +112,7 @@
 	justify-content: center;
 	color: rgb(100,255,100);
 	font-family: sans-serif;
-	text-align: center;
+	
 }
 
 .head2{
@@ -121,6 +123,7 @@
 	top: 30%;
 	transition: 1s ease;
 	text-decoration: none;
+	text-align: center;
 }
 
 .para2{
@@ -128,6 +131,7 @@
 	font-size: clamp(15px,2vw,30px);
 	font-weight: bold;
 	position: relative;
+	text-align: center;
 	top: 30%;
 }
 
