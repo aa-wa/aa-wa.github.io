@@ -10,6 +10,8 @@
 	z-index: -1;
 }
 .main{
+	position: sticky;
+	background-color: green;
 	display: flex;
 	justify-content: center;
 	font-family: sans-serif;
